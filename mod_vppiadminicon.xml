@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2" client="administrator" method="upgrade">
+	<name>SugarCRM Import Control Panel Icon</name>
+	<author>Linux Foundation</author>
+	<creationDate>7 July 2014</creationDate>
+	<copyright>The Linux Foundation. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@linuxfoundation.org</authorEmail>
+	<authorUrl>http://www.linuxfoundation.org/</authorUrl>
+	<version>2.2</version>
+	<description>This module shows a link to the Sugar CRM Import Page in the Joomla control panel. After installing, enable the module in Module Manager > Administrator and assign to the "icon" position.</description>
+
+	<files folder="administrator/modules/mod_sugarsyncicon">
+		<filename module="mod_sugarsyncicon">mod_sugarsyncicon.php</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="cache" type="list" label="Caching" description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
