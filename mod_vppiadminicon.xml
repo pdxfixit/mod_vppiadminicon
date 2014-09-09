@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="3.2" client="administrator" method="upgrade">
-	<name>SugarCRM Import Control Panel Icon</name>
-	<author>Linux Foundation</author>
-	<creationDate>7 July 2014</creationDate>
-	<copyright>The Linux Foundation. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<authorEmail>info@linuxfoundation.org</authorEmail>
-	<authorUrl>http://www.linuxfoundation.org/</authorUrl>
-	<version>2.2</version>
-	<description>This module shows a link to the Sugar CRM Import Page in the Joomla control panel. After installing, enable the module in Module Manager > Administrator and assign to the "icon" position.</description>
+<extension type="module" version="3.3" client="administrator" method="upgrade">
+	<name>VPPI Admin Icon</name>
+	<author>PDXfixIT</author>
+	<creationDate>9 Sept 2014</creationDate>
+    <authorEmail>info@pdxfixit.com</authorEmail>
+    <authorUrl>http://www.pdxfixit.com/</authorUrl>
+    <copyright>Copyleft (C) 2014. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+	<description>This module shows a link to the VPPI component in the Joomla control panel. After installing, enable the module in Module Manager > Administrator and assign to the "icon" position.</description>
 
-	<files folder="administrator/modules/mod_sugarsyncicon">
-		<filename module="mod_sugarsyncicon">mod_sugarsyncicon.php</filename>
+	<files folder="administrator/modules/mod_vppiadminicon">
+		<filename module="mod_vppiadminicon">mod_vppiadminicon.php</filename>
 	</files>
 
 	<config>
