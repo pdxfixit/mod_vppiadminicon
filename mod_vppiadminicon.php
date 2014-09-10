@@ -11,11 +11,11 @@
 defined('_JEXEC') or die;
 
 ?>
-<div id="cpanel">
+<div id="vppi-link" class="btn-large">
     <div>
         <div class="icon">
-            <a href="/index.php?option=com_vppi&view=homes">
-                <i class="icon-cube"></i> <span><?php echo JText::_('Manage Homes'); ?></span></a>
+            <a href="/index.php?option=com_vppi&view=homes" style="color: #6e7e29;">
+                <i class="icon-home" style="color: #6e7e29;"></i> <span>&nbsp;&nbsp;<?php echo JText::_('Manage Properties'); ?></span></a>
         </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.3" client="administrator" method="upgrade">
-	<name>VPPI Admin Icon</name>
+	<name>VPPI Homes/Properties Link</name>
 	<author>PDXfixIT</author>
 	<creationDate>9 Sept 2014</creationDate>
     <authorEmail>info@pdxfixit.com</authorEmail>
@@ -12,6 +12,7 @@
 
 	<files folder="administrator/modules/mod_vppiadminicon">
 		<filename module="mod_vppiadminicon">mod_vppiadminicon.php</filename>
+        <filename>index.html</filename>
 	</files>
 
 	<config>
