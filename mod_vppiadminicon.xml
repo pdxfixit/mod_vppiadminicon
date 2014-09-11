@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.3" client="administrator" method="upgrade">
-	<name>VPPI Homes/Properties Link</name>
+	<name>VPPI Admin Icon</name>
 	<author>PDXfixIT</author>
-	<creationDate>9 Sept 2014</creationDate>
+	<creationDate>September 10, 2014</creationDate>
     <authorEmail>info@pdxfixit.com</authorEmail>
     <authorUrl>http://www.pdxfixit.com/</authorUrl>
     <copyright>Copyleft (C) 2014. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>1.0</version>
-	<description>This module shows a link to the VPPI component in the Joomla control panel. After installing, enable the module in Module Manager > Administrator and assign to the "icon" position.</description>
+    <version>1.1</version>
+	<description><![CDATA[<div><p style="font-size: 18px;"><img src="../media/com_vppi/images/vppi-logo.png" alt="VPPI Logo" title="Vantage Point Properties, Inc." style="margin-bottom: 10px;"><br>VPPI Admin Icon v1.1<br>September 10, 2014<br><a href="http://www.pdxfixit.com/" target="_blank" title="Made by PDXfixIT."><img src="http://updates.pdxfixit.com/logo.png" alt="PDXfixIT" title="PDXfixIT" style="margin-top: 10px;"></a></p></div><p>This module shows a link to the VPPI component in the Joomla Administrator control panel. After installing, enable the module in Module Manager > Administrator and assign to the "cpanel" position.</p>]]></description>
 
 	<files folder="administrator/modules/mod_vppiadminicon">
 		<filename module="mod_vppiadminicon">mod_vppiadminicon.php</filename>
         <filename>index.html</filename>
 	</files>
-
-	<config>
-		<fields name="params">
-			<fieldset name="basic">
-				<field name="cache" type="list" label="Caching" description="Select whether to cache the content of this module">
-					<option value="1">Use global</option>
-					<option value="0">No caching</option>
-				</field>
-			</fieldset>
-		</fields>
-	</config>
 </extension>
